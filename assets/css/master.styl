@@ -70,3 +70,16 @@ base()
     max-width: 800px
     fs(1.2em)
     margin: 20px auto
+
+  .double
+    group()
+    max-width: 800px
+    margin: 0 auto
+
+    p:first-child
+      float: left
+      max-width: 45%
+
+    p:last-child
+      float: right
+      max-width: 45%
