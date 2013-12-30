@@ -10,6 +10,10 @@ Open-sourced landing pages for your marketing efforts.
 - Your compiled result will be under public > index.html
     - Remember to also grab the stylesheet and js
 
+## Docs
+[Jade](http://jade-lang.com/reference)
+[Roots](http://roots.cx/axis/)
+
 ## License
 MIT
 
