@@ -1,10 +1,36 @@
-Your Project Name
-=================
-A brief summary of your project
+# OuiLand
+Open-sourced landing pages for your marketing efforts.
 
-### Setup / Installation
-Some instructions on how to set up and/or install this project
+## Installation
+- Clone this repo
+- Install [Roots](http://roots.cx/#installation)
+- Under _partials.jade include all the partials you want to use
+- Modify the styles accordingly
+- ```$ roots watch```
+- Your compiled result will be under public > index.html
+    - Remember to also grab the stylesheet and js
 
-### Staging/Production
-This site is staged at http://example.com [u: admin p: example]    
-This site is live at http://example.com
+## License
+MIT
+
+    The MIT License (MIT)
+
+    Copyright (c) <year> <copyright holders>
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
