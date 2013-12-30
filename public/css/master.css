@@ -193,7 +193,7 @@ body {
   color: #fbfcfc;
   text-transform: capitalize;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
 }
 .header h1 {
   font-size: 2em;
@@ -203,4 +203,20 @@ body {
 }
 .header .double h2 {
   font-size: 1.5em;
+}
+.content {
+  background: #fbfcfc;
+  color: #2a94d6;
+  padding: 50px;
+}
+.content h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.content p {
+  max-width: 800px;
+  font-size: 1.2em;
+  margin: 20px auto;
 }
