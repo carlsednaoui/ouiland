@@ -6,7 +6,10 @@
   });
 
   require(['jquery'], function($) {
-    return console.log('jquery loaded (via assets/js/main.coffee)');
+    console.log('jquery loaded (via assets/js/main.coffee)');
+    return $('.banner .hide').click(function() {
+      return $(this).parent().slideUp();
+    });
   });
 
 }).call(this);

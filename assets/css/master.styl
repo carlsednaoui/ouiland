@@ -1,18 +1,46 @@
 @import '_settings'
 
-normalize()
+global-reset()
 base()
-
-body
-  padding: 50px
 
 .container
   width: 100%
 
-.navbar
-  background: blue
-  color: green
+.banner
+  background: dark-blue
+  color: white
+  text-align: center
+  padding: 15px
+  font-size: 18px
+  bold()
+
+  p
+    inline-block()
+    margin-right: 15px
+
+  .button
+    reset-link()
+    background: green
+    color: white
+    inline-block()
+    padding: 8px
+    raquo()
+    border-radius: 3px
+    cursor: pointer
+
+  .hide
+    float: right
+    margin: -20px 10px 0 0
+    cursor: pointer
+    normal()
+    fs(12px)
 
 .header
-  background: red
+  background: blue
   color: white
+  text-transform: capitalize
+  text-align: center
+  
+  h1
+    padding: 30px
+    font-size: 2em

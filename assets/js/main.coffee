@@ -9,3 +9,5 @@ require.config
 require ['jquery'], ($) ->
   console.log 'jquery loaded (via assets/js/main.coffee)'
 
+  $('.banner .hide').click ->
+    $(this).parent().slideUp()

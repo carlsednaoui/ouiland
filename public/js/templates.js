@@ -54,4 +54,8 @@ function joinClasses(val) { return Array.isArray(val) ? val.map(joinClasses).fil
 var jade = {
   attrs: attrs,
   escape: escape 
-};})();
+};templates['others/banner'] = function anonymous(locals) {
+var buf = [];
+buf.push("<div class=\"banner\"><p>We have a special promo for you.</p><div class=\"button\"><Redeem>now</Redeem></div><div class=\"span\">hide</div></div>");;return buf.join("");
+};
+})();
