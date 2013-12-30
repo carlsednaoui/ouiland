@@ -36,11 +36,21 @@ base()
     fs(12px)
 
 .header
+  //- basic styles for simple header
   background: blue
   color: white
   text-transform: capitalize
   text-align: center
+  padding: 30px
   
   h1
-    padding: 30px
     font-size: 2em
+
+  //- styles for double header
+  //- double header = h1 + h2
+  .double
+    h1
+      padding-bottom: 10px
+
+    h2
+      font-size: 1.5em
